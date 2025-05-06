@@ -4,7 +4,7 @@ import random
 import pickle
 import os
 
-ACTIONS = ['attack', 'heal']
+ACTIONS = ['attack', 'heal'] 
 
 class Beast:
     def __init__(self, name, health=100, attack=20, defense=5):
